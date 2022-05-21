@@ -14,5 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Change dir to project
+      run: cd Az204.WebApi
     - name: Build the Docker image
       run: docker build . --tag az204webapi:$(date +%s)

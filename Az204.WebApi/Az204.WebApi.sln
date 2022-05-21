@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Az204.WebApi", "Az204.WebApi\Az204.WebApi.csproj", "{A344BA3A-D5B8-4DCC-B275-7A12652FCF39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03A46115-B5D6-42DE-863F-B8F70C807B8D}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A344BA3A-D5B8-4DCC-B275-7A12652FCF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A344BA3A-D5B8-4DCC-B275-7A12652FCF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A344BA3A-D5B8-4DCC-B275-7A12652FCF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A344BA3A-D5B8-4DCC-B275-7A12652FCF39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90AA1667-22A1-4612-9B94-DD306CED8FF1}
+	EndGlobalSection
+EndGlobal
